@@ -3,6 +3,7 @@ import React from 'react';
 import './style.css';
 
 import PageHeader from '../PageHeader';
+import TeacherItem from '../TeacherItem';
 
 const TeacherList = (): JSX.Element => {
   return (
@@ -23,6 +24,9 @@ const TeacherList = (): JSX.Element => {
           </div>
         </form>
       </PageHeader>
+      <main>
+        <TeacherItem />
+      </main>
     </div>
   );
 };
