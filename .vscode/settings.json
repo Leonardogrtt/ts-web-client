@@ -1,4 +1,11 @@
 {
+  // custom
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.renderLineHighlight": "gutter",
+  "editor.semanticHighlighting.enabled": false,
+  "workbench.colorTheme": "One Dark Pro",
+
   "files.associations": {
     "*.jsx": "javascriptreact",
     "*.tsx": "typescriptreact"

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import './style.css';
 
@@ -24,14 +25,14 @@ const Landing = (): JSX.Element => {
         />
 
         <div className="buttons-container">
-          <a href="" className="study">
+          <Link to="/estudar" className="study">
             <img src={studyIcon} alt="Estudar" />
             Estudar
-          </a>
-          <a href="" className="give-classes">
+          </Link>
+          <Link to="/dar-aulas" className="give-classes">
             <img src={giveClassesIcon} alt="Dar aulas" />
             Dar aulas
-          </a>
+          </Link>
         </div>
 
         <span className="total-connections">
