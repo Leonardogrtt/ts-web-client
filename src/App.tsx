@@ -1,9 +1,10 @@
 import React from 'react';
 
-function App() {
-  return (
-    <h1>hello</h1>
-  );
+import './assets/style/global.css';
+import Landing from './pages/Landing';
+
+function App(): JSX.Element {
+  return <Landing />;
 }
 
 export default App;
